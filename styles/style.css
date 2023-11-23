@@ -163,19 +163,27 @@ ul {
 
 .form-row {
     display: flex;
-    justify-content: center;
-    margin: 0px 0px;
+    flex-direction: column;
+    align-items: center
+    margin: 10px;
+    place-items:center;
 }
 
+label {
+    align-self:flex-start;
+    padding-left: 5%;
+  }
+  
 .bg-dark > .contact-shield{
     margin: 10px 300px 10px;
     background-color: rgb(42,88,121);
     border-radius: 25px;
+    
 }
 input, textarea {
     width: 80%;
-    margin: 10px;
     padding: 12px 10px;
+    margin: 1px 2%;
 }
 
 [type=submit] {
@@ -186,6 +194,7 @@ input, textarea {
     cursor: pointer;
     box-sizing: content-box;
     font-size: 1.5rem;
+    margin-bottom: 17px;
 }
 
 [type=submit]:hover {
