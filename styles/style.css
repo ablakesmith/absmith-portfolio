@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    margin-top: 60px;
     color: rgb(42,88,121);
     font-family: 'Carrois Gothic', serif;
     display: flex;
@@ -16,9 +17,16 @@ body {
 }
 
 .header-nav {
+    overflow: hidden;
+    background-color: rgb(42,88,121);
+    color: white;
+    position: fixed; 
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgb(32,67,92); /* 1 shade darker than original */
 }
 
 .heading-container {
@@ -96,12 +104,12 @@ ul {
 }
 
 .logo {
-    color: black;
+    color: white;
     text-decoration: none;
-    margin: left 25px;
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin: 1rem 0 1rem 1rem;
+    margin-left: 25px;
+    font-size: 2rem;
+    font-weight:bold;
+    margin: 10px 10px;
 }
 
 .header-nav-menu {
@@ -113,15 +121,15 @@ ul {
 }
 
 .header-menu-item {
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .header-menu-item a {
     margin-right: 1.5rem;
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 
 .introduction {
