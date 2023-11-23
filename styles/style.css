@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    color: rgb(42,88,121);
+    font-family: 'Carrois Gothic', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Carrois Gothic', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.75rem;
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+
+p {
+    padding: 0.4rem;
+}
+
+header {
+    background-color: white;
+}
+
+ul {
+    padding-bottom: 0.4rem;
+}
+.profile-description {
+    padding: 1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    background-color: rgb(42,88,121);
+    border-radius: 25px;
+}
+
+.bg-dark {
+    color: white;
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.bg-dark > .shield{
+    margin: 10px 30px 10px;
+    background-color: rgb(42,88,121);
+    border-radius: 25px;
+}
+
+.bg-light {
+    color: rgb(42,88,121);
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.bg-light > .shield {
+    margin: 10px 30px 10px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 25px;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    margin: left 25px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.header-nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu-item {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-item a {
+    margin-right: 1.5rem;
+    text-decoration: underline;
+    color: black;
+}
+
+.introduction {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(30, 30, 30);
+}
+
+.profile-image {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 3.2px;
+    border-radius: 35% 0% 35% 0%;
+}
+
+.multi-column-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.three-column-item {
+    width: calc(100% / 3 - 40px);
+    margin: 5px 5px 5px;
+    border: 5px solid rgb(42,88,121);
+    border-radius: 15px;
+    background-color: rgb(246,255,246);
+    text-align: center;
+    color: rgb(42,88,121);
+}
+
+.three-column-item .img-thumbnail {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.bg-dark > .contact-shield{
+    margin: 10px 300px 10px;
+    background-color: rgb(42,88,121);
+    border-radius: 25px;
+}
+input, textarea {
+    width: 80%;
+    margin: 10px;
+    padding: 12px 10px;
+}
+
+[type=submit] {
+    background-color: rgb(27,56,77);
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 8px rgba(255,255,255,0.4);
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 1.5rem;
+}
+
+[type=submit]:hover {
+    background-color: rgb(57,120,165);
+    box-shadow: 3px 3px 8px rgba(255,255,255,0.7);
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
