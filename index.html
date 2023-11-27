@@ -6,35 +6,31 @@
         <title>My First HTML Project</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Carrois+Gothic&display=swap" rel="stylesheet">              
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Carrois+Gothic&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/style.css">
     </head>
-    
 
+    <body>
         <header>
             <nav class="header-nav">
-                    <a href="#" class="logo">Blake Smith</a>
-                    <ul class="header-nav-menu">
-                        <li class="header-menu-item"><a href="#">Home</a></li>
-                        <li class="header-menu-item"><a href="#skills">Skills</a></li>
-                        <li class="header-menu-item"><a href="#projects">Projects</a></li>
-                        <li class="header-menu-item"><a href="#testimonials"> Testimonials</a></li>
-                        <li class="header-menu-item"><a href="#contact">Contact</a></li>
-                    </ul>
-            </nav>  
+                <a href="#" class="logo">Blake Smith</a>
+                <ul class="header-nav-menu">
+                    <li class="header-menu-item"><a href="#">Home</a></li>
+                    <li class="header-menu-item"><a href="#skills">Skills</a></li>
+                    <li class="header-menu-item"><a href="#projects">Projects</a></li>
+                    <li class="header-menu-item"><a href="#testimonials"> Testimonials</a></li>
+                    <li class="header-menu-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
-    <body>
+
         <div class="bg-light">
             <div class=" shield">
                 <h1>Blake Smith</h1>
-                <section>
                     <p class="introduction">
-                                Hi, I am Blake, I have completed a Software Engineering Bootcamp at the University of Tennessee, Knoxville and hold a passion for crafting user-friendly, maintainable software through coding.
-                            </p>
-                            <img src="./images/profile.png" 
-                            class="profile-image"
-                            alt="Blake Smith profile picture">
-                </section>
+                        Hi, I am Blake, I have completed a Software Engineering Bootcamp at the University of Tennessee, Knoxville and hold a passion for crafting user-friendly, maintainable software through coding.
+                    </p>
+                    <img src="./images/profile.png" class="profile-image" alt="Blake Smith profile picture">
             </div>    
         </div>        
 
@@ -63,7 +59,7 @@
                 <div class="multi-column-container">
                     <section class="three-column-item">
                         <h3>Frontend Development</h3>
-                        <img src="./images/icons8-web-100.png">
+                        <img src="./images/icons8-web-100.png" alt="frontend">
                             <ul style="list-style-type:none;">
                                 <li>HTML5</li>
                                 <li>CSS3</li>
@@ -75,7 +71,7 @@
                     </section>
                     <section class="three-column-item">
                         <h3>Backend Development</h3>
-                        <img src="./images/icons8-server-100.png">
+                        <img src="./images/icons8-server-100.png" alt="backend">
                             <ul style="list-style-type:none;">
                                 <li>node.js</li>
                                 <li>Express</li>
@@ -86,7 +82,7 @@
                     </section>
                     <section class="three-column-item">
                         <h3>Software Engineering</h3>
-                        <img src="./images/icons8-design-100.png">
+                        <img src="./images/icons8-design-100.png" alt="software engineering">
                             <ul style="list-style-type:none;">
                                 <li>Unit Testing</li>
                                 <li>Testing Library</li>
@@ -105,7 +101,7 @@
                 <h2>Projects</h2>
                 <div class="multi-column-container">
                     <section class="three-column-item">
-                        <img src=".//images/project1-thumbnail.png" alt="Project 1" class="img-thumbnail">
+                        <a href="#"><img src=".//images/project1-thumbnail.png" alt="Project 1" class="img-thumbnail"></a>
                         <h3>Project 1</h3>
                         <p>
                             This is my Personal Website / Portfolio Project.
@@ -155,46 +151,43 @@
                         </p>
                     </section>
                 </div>
+            </div>
         </section>
 
         <section id="contact" class="bg-dark">
             <div class="contact-shield">
                 <h2>Contact</h2>
                     <form action="https://formspree.io/f/xbjvenvg" method="POST">
-                        <section class="form-row">
+                        <div class="form-row">
                             <label for="full-name">Full Name</label>
                                 <input
                                 type="text"
                                 name="name"
-                                id="name"
+                                id="full-name"
                                 placeholder="First & Last Name"
                                 required="">
-                        </section>
-                        <section class="form-row">
+                        </div>
+                        <div class="form-row">
                             <label for="email-address">Email Address</label>
                                 <input
                                 type="email"
                                 name="email"
-                                id="email"
+                                id="email-address"
                                 placeholder="Email">
-                        </section>
-                        <section class="form-row">
+                        </div>
+                        <div class="form-row">
                             <label for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Dear Blake,"required=""></textarea>
-                        </section>
-                        <section class="form-row">
-                            <input type="submit" 
-                            value="Submit"/>
-                        </section>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Dear Blake," required=""></textarea>
+                        </div>
+                        <div class="form-row">
+                            <input type="submit" value="Submit">
+                        </div>
                     </form>
-                     
             </div>    
         </section>
 
         <footer class="bg-dark">
             Copyright &copy; 2023 Blake Smith
-        </footer>
-       
-      
+        </footer> 
     </body>
 </html>
