@@ -13,6 +13,9 @@ Future Improvement:
     - I need to make it more friendly towards different screen sizes.
     - when submitting the contact form I would like the website to automatically be reloaded and not just stay on the "Thanks! The form was submitted successfully." page.
 
+GitHub Link: https://github.com/ablakesmith/absmith-portfolio
+GitHub Pages Link: https://ablakesmith.github.io/absmith-portfolio/
+
 ## User Stories
 
     - 1 - Navigation Menu:
