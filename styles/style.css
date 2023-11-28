@@ -1,3 +1,4 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +15,98 @@ body {
     font-family: 'Carrois Gothic', serif;
     display: flex;
     flex-direction: column;
+    min-width: 350px;
 }
 
+/* Responsive styles */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+
+    .profile-image {
+        width: 200px;
+    }
+
+    .introduction {
+        padding: 0 10px;
+    }
+
+    .multi-column-container {
+        flex-direction: column;
+    }
+
+    .three-column-item {
+        width: 95%;
+        margin: 5px 0;
+        justify-content: center;
+    }
+
+    .three-column-item .img-thumbnail {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .form-row,
+    input,
+    textarea {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    [type=submit] {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .logo {
+        font-size: 2rem;
+        margin-left: 25px;
+    }
+
+    .profile-image {
+        width: 300px;
+    }
+
+    .introduction {
+        padding: 0 50px;
+    }
+
+    .three-column-item {
+        width: calc(33.33% - 20px);
+        margin: 5px;
+    }
+
+    .three-column-item .img-thumbnail {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .form-row,
+    input,
+    textarea {
+        width: 80%;
+        margin: 5px;
+    }
+
+    [type=submit] {
+        width: 50%;
+        margin: 10px auto;
+    }
+}
+
+/* ... (Other styles continue here) */
 .header-nav {
     overflow: hidden;
     background-color: rgb(42,88,121);
@@ -153,11 +244,13 @@ ul {
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    align-items: center;
 }
 
 .three-column-item {
-    width: calc(100% / 3 - 40px);
-    margin: 5px 5px 5px;
+    /* width: calc(100% / 3 - 40px); */
+    
+    margin: 5px 5px;
     border: 5px solid rgb(42,88,121);
     border-radius: 15px;
     background-color: rgb(246,255,246);

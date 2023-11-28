@@ -1,4 +1,4 @@
-"# absmith-portfolio" 
+# absmith-portfolio
 
 Name: Andrew Blake Smith
 
