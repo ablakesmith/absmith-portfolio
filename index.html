@@ -12,8 +12,30 @@
 
     <body>
         <header>
-            <nav class="header-nav">
+            <nav class="navbar">
+                <a href="#" class="nav-branding">Blake Smith</a>
+                <div>
+                    <ul class="nav-menu">
+                        <li class="nav-link"><a href="#">Home</a></li>
+                        <li class="nav-link"><a href="#skills">Skills</a></li>
+                        <li class="nav-link"><a href="#projects">Projects</a></li>
+                        <li class="nav-link"><a href="#testimonials"> Testimonials</a></li>
+                        <li class="nav-link"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            <!-- <nav class="header-nav">
                 <a href="#" class="logo">Blake Smith</a>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
                 <ul class="header-nav-menu">
                     <li class="header-menu-item"><a href="#">Home</a></li>
                     <li class="header-menu-item"><a href="#skills">Skills</a></li>
@@ -21,7 +43,7 @@
                     <li class="header-menu-item"><a href="#testimonials"> Testimonials</a></li>
                     <li class="header-menu-item"><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
 
         <div class="bg-light">
@@ -157,37 +179,30 @@
         <section id="contact" class="bg-dark">
             <div class="contact-shield">
                 <h2>Contact</h2>
-                    <form action="https://formspree.io/f/xbjvenvg" method="POST">
-                        <div class="form-row">
-                            <label for="full-name">Full Name</label>
-                                <input
-                                type="text"
-                                name="name"
-                                id="full-name"
-                                placeholder="First & Last Name"
-                                required="">
-                        </div>
-                        <div class="form-row">
-                            <label for="email-address">Email Address</label>
-                                <input
-                                type="email"
-                                name="email"
-                                id="email-address"
-                                placeholder="Email">
-                        </div>
-                        <div class="form-row">
-                            <label for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Dear Blake," required=""></textarea>
-                        </div>
-                        <div class="form-row">
-                            <input type="submit" value="Submit">
-                        </div>
-                    </form>
-            </div>    
+                <form action="https://formspree.io/f/xbjvenvg" method="POST" class="contact-form">
+                    <div class="form-row">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First & Last Name" required="">
+                    </div>
+                    <div class="form-row">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="email" id="email-address" placeholder="Email">
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Dear Blake," required=""></textarea>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
         </section>
 
-        <footer class="bg-dark">
+        <footer class="footer">
             Copyright &copy; 2023 Blake Smith
         </footer> 
+
+    <script src="script.js"></script>
     </body>
 </html>
