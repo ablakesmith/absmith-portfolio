@@ -1,5 +1,7 @@
 # absmith-portfolio
 
+**GitHub Pages Link:** [absmith-portfolio on GitHub Pages](https://ablakesmith.github.io/absmith-portfolio/)
+
 **Name:** Andrew Blake Smith
 
 **Project description:** This project is a portfolio project that I hope to enhance and ultimately use as a resume when looking for software engineering jobs.
@@ -12,10 +14,6 @@
 - I will be updating the "projects" & "testimonials" areas as the course goes on and as I need to.
 - I need to make it more friendly towards different screen sizes.
 - When submitting the contact form, I would like the website to automatically be reloaded and not just stay on the "Thanks! The form was submitted successfully." page.
-
-**GitHub Link:** [absmith-portfolio](https://github.com/ablakesmith/absmith-portfolio)
-
-**GitHub Pages Link:** [absmith-portfolio on GitHub Pages](https://ablakesmith.github.io/absmith-portfolio/)
 
 ## User Stories
 

@@ -184,7 +184,7 @@ a {
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    align-items: center;
+    align-items: stretch;
 }
 
 .three-column-item {
