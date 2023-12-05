@@ -123,10 +123,8 @@ a {
     text-decoration: none;
 }
 .profile-description {
-    padding: 1rem;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0px;
     background-color: rgb(42,88,121);
     border-radius: 25px;
 }
@@ -344,6 +342,7 @@ input, textarea {
 
     .multi-column-container {
         flex-direction: column;
+        align-items: center;
     }
 
     .three-column-item {
